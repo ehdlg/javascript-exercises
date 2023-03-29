@@ -1,7 +1,5 @@
 const repeatString = function(stringToRepeat, repetition) {
-    if(stringToRepeat === ''){
-        return '';
-    }
+    
     if(repetition < 0){
         return 'ERROR';
     }
